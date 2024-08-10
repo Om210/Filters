@@ -39,8 +39,8 @@ plt.xlabel("Sample")
 plt.ylabel("Amplitude")
 plt.grid()
 plt.show()
+
 step_signal = np.ones(100)
-input_signal = np.sin(2 * np.pi * 0.05 * np.arange(100))  # Example input signal
 output_signal = np.convolve(step_signal, hi, mode='full')
 
 plt.subplot(2, 1, 1)
