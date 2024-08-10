@@ -1,4 +1,4 @@
-# Low-pass FIR Filter
+# Low-pass FIR Filter with Rectangular Window
 '''
 Input a sequence of real numbers (finite length)
 Input the sampling frequency and the desired cut-off frequency
